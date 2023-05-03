@@ -4,7 +4,7 @@ from recognition_service import RecognitionService
 storage_service = StorageService()
 recognition_service = RecognitionService()
 
-bucket_name = '>>your.s3.bucket.name.here<<'
+bucket_name = '>>YOUR.S3.BUCKET.NAME.HERE<<'
 
 for file in storage_service.get_all_files(bucket_name):
     if file.key.endswith('.jpg'):
