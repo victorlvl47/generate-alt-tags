@@ -2,6 +2,8 @@
 
 This is a Python script that uses AWS S3 and Rekognition services to generate alternative tags for images in a specified S3 bucket. It prints the image file name and the corresponding alternative tags.
 
+![generate alt tags](school-of-fish-alt-tags-md.png "Generate alt tags")
+
 # Prerequisites
 
 - AWS credentials set up with necessary permissions to access S3 and Rekognition services
